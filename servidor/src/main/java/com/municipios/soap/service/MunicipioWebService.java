@@ -1,4 +1,6 @@
-package com.municipios.soap;
+package com.municipios.soap.service;
+
+import com.municipios.soap.model.*;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

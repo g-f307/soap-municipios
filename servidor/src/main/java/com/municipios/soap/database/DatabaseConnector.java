@@ -1,4 +1,4 @@
-package com.municipios.soap;
+package com.municipios.soap.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

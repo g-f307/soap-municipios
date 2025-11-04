@@ -1,4 +1,4 @@
-package com.municipios.soap;
+package com.municipios.soap.model;
 
 /**
  * Modelo de dados populacionais do município

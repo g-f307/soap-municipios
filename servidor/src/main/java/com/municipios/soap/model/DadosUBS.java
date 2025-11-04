@@ -1,4 +1,4 @@
-package com.municipios.soap;
+package com.municipios.soap.model;
 
 /**
  * Dados agregados de UBS do município

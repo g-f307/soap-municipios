@@ -1,4 +1,7 @@
-package com.municipios.soap;
+package com.municipios.soap.service;
+
+import com.municipios.soap.model.*;
+import com.municipios.soap.database.DatabaseConnector;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
@@ -25,7 +28,7 @@ import java.sql.SQLException;
  * Implementação do Web Service SOAP
  * (Corrigido para usar ID IBGE de 6 dígitos nas consultas SQL)
  */
-@WebService(endpointInterface = "com.municipios.soap.MunicipioWebService")
+@WebService(endpointInterface = "com.municipios.soap.service.MunicipioWebService")
 public class MunicipioWebServiceImpl implements MunicipioWebService {
 
     private final Gson gson = new Gson();
